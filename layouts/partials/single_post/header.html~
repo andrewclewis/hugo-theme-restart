@@ -8,7 +8,7 @@
                          <li><a href="about_us.html">About Us</a></li>
                          <li><a href="services.html">Services</a></li>
                          <li><a href="portfolio.html">Portfolio</a></li>
-                         <li class="active"><a href="blog.html">Blog</a></li>
+                         <li><a href="blog.html">Blog</a></li>
                          <li><a href="contact.html">Contact</a></li>
                          <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Pages<span class="caret"></span></a>
                               <ul class="dropdown-menu">
@@ -17,7 +17,7 @@
                                    <li><a href="gallery.html">Portfolio Masonry</a></li>
                                    <li><a href="portfolio_item.html">Portfolio Item</a></li>
                                    <li><a href="portfolio_item_2.html">Portfolio Item II</a></li>
-                                   <li><a href="single_post.html">Single Post</a></li>
+                                   <li class="active"><a href="single_post.html">Single Post</a></li>
                                    <li><a href="404.html">ERROR 404</a></li>
                                    <li><a href="register.html">Register or Sign in</a></li>
                                    <li><a href="elements.html">Design Elements</a></li>

@@ -1,13 +1,15 @@
 <!doctype html>
 <html class="no-js" lang="en">
-{{ partial "portfolio/head.html" . }}
+{{ partial "portfolio_item/head.html" . }}
 <body>
-{{ partial "portfolio/header.html" . }}
+{{ partial "portfolio_item/header.html" . }}
 <div class="main">
-     {{ partial "portfolio/hgroup.html" . }}
-     {{ partial "portfolio/portfolio_filters.html" . }}
-     {{ partial "portfolio/portfolio_strict.html" . }}
-     {{ partial "portfolio/footer.html" . }}
+     {{ partial "portfolio_item/call_to_action.html" . }}
+     {{ partial "portfolio_item/portfolio_slider_wrapper.html" . }}
+     {{ partial "portfolio_item/info.html" . }}
+     {{ partial "portfolio_item/portfolio_teasers_wrapper.html" . }}
+                                        
+     {{ partial "portfolio_item/footer.html" . }}
 </div>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.9.0.min.js"><\/script>')</script>
