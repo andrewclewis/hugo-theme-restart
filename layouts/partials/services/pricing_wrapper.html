@@ -1,39 +1,9 @@
-<section class="pricing_wrapper">
+     <section class="pricing_wrapper">
           <div class="container">
                <div class="row">
-                    <div class="col-sm-12 col-md-4">
-                         <div class="pricing_plan wow animated bounceInLeft">
-{{ partial "services/service_teasers.html" . }}                              <h3>Lite<strong>Plan</strong> <small>this is where you start</small></h3>
-                              <div class="the_price"><span>$</span>150<small>/year</small></div>
-                              <div class="the_offerings">
-                                   <p> <strong>1</strong> Design Template </p>
-                                   <p> <strong>2</strong> Revisions </p>
-                                   <p> <strong>5</strong> HTML Pages </p>
-                              </div>
-                              <a href="#" class="btn btn-primary btn-lg">Get it Now!</a> </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                         <div class="pricing_plan special wow animated flipInY">
-                              <h3>Medium<strong>Plan</strong> <small>this is what you should choose</small></h3>
-                              <div class="the_price"><span>$</span>250<small>/year</small></div>
-                              <div class="the_offerings">
-                                   <p> <strong>1</strong> Design Template </p>
-                                   <p> <strong>2</strong> Revisions </p>
-                                   <p> <strong>5</strong> HTML Pages </p>
-                              </div>
-                              <a href="#" class="btn btn-primary btn-lg">Get it Now!</a> </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                         <div class="pricing_plan wow animated bounceInRight">
-                              <h3>Pro<strong>Plan</strong> <small>this is what you really need</small></h3>
-                              <div class="the_price"><span>$</span>350<small>/year</small></div>
-                              <div class="the_offerings">
-                                   <p> <strong>1</strong> Design Template </p>
-                                   <p> <strong>2</strong> Revisions </p>
-                                   <p> <strong>5</strong> HTML Pages </p>
-                              </div>
-                              <a href="#" class="btn btn-primary btn-lg">Get it Now!</a> </div>
-                    </div>
+                    {{ partial "services/plan_1.html" . }}
+                    {{ partial "services/plan_2.html" . }}
+		    {{ partial "services/plan_3.html" . }}
                </div>
           </div>
      </section>
