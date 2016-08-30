@@ -1,0 +1,11 @@
+               <div class="service_teaser inverted">
+                    <div class="row">
+                         <div class="service_photo col-sm-4 col-md-4">
+                              <figure style="background-image:url(images/serv_5.jpg)"></figure>
+                         </div>
+                         <div class="service_details col-sm-8 col-md-8">
+                              <h2 class="section_header skincolored"><b>Inverted</b>{Less}<small>where the service_teaser is .inverted if you like it dark</small></h2>
+                              <p><strong>Restart</strong> is fresh and easy to customize, built to serve as a foundation for your web projects. It is built upon Bootstrap, a front-end development framework with a steep learning curve. It comes with a style.less file that tries to use <strong>all the power of {less} and bootstrap combined</strong>. </p>
+                         </div>
+                    </div>
+               </div>
