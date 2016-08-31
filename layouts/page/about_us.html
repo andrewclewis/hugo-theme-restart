@@ -1,0 +1,20 @@
+<!doctype html>
+<html class="no-js" lang="en">
+{{ partial "about_us/head.html" . }}
+<body class="collapsing_header">
+  {{ partial "about_us/header.html" . }}
+<div class="full_page_photo" style="background-image: url(images/about_us.jpg);">
+     <div class="container">
+          {{ partial "about_us/call_to_action.html" . }}
+     </div>
+</div>
+<div class="main">     
+     {{ partial "about_us/hgroup.html" . }}
+     {{ partial "about_us/article-text.html" . }}
+     {{ partial "about_us/call_to_action2.html" . }}
+     {{ partial "about_us/team.html" . }}
+     {{ partial "footer.html" . }}
+</div>
+{{ partial "about_us/scripts.html" . }}
+</body>
+</html>

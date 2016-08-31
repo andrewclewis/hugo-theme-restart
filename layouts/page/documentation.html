@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="en">
+{{ partial "documentation/head.html" . }}
+<body data-spy="scroll" data-target=".bs-docs-sidebar" class="collapsing_header">
+{{ partial "documentation/header.html" . }}
+{{ partial "documentation/slider.html" . }}
+<div class="main">
+     <div class="container bs-docs-container">
+          <div class="row">
+               <div class="col-md-9" role="main">
+                    <!-- Overview
+================================================== -->
+		    {{ partial "documentation/overview.html" . }} 
+                    <!-- layout
+================================================== -->
+		    {{ partial "documentation/layout.html" . }}
+                    <!-- Less
+================================================== -->
+		    {{ partial "documentation/less.html" . }}
+                    <!-- header
+================================================== -->
+		    {{ partial "documentation/docheader.html" . }}
+                   
+                    <!-- flexslider
+================================================== -->
+                    {{ partial "documentation/flexslider.html" . }}
+                    <!-- fullpagephoto
+================================================== -->
+		    {{ partial "documentation/fullpagephoto.html" . }}
+                    <!-- Portfolio & Isotope #portfolio
+================================================== -->
+		    {{ partial "documentation/Portfolio+Iso.html" . }}
+                    <!-- Styled Elements #shortcodes 
+================================================== -->
+		    {{ partial "documentation/shortcodes.html" . }}
+                    <!-- footer
+================================================== -->
+		    {{ partial "documentation/footerdoc.html" . }}
+                    <!-- Animations
+================================================== -->
+		    {{ partial "documentation/animation.html" . }}
+                   
+               </div>
+	       {{ partial "documentation/sidebar.html" . }}
+          </div>
+     </div>
+     {{ partial "documentation/footer.html" . }}
+</div>
+{{ partial "documentation/scripts.html" . }}
+</body>
+</html>

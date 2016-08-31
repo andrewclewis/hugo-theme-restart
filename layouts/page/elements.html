@@ -1,0 +1,30 @@
+<!doctype html>
+<html class="no-js" lang="en">
+{{ partial "elements/head.html" . }}
+<body>
+{{ partial "elements/header.html" . }}
+<div class="main">
+     {{ partial "elements/hgroup" . }}
+     <div class="container">
+     {{ partial "elements/service_teaser.html" . }}
+     </div>
+     
+     {{ partial "elements/info.html" . }}     
+     {{ partial "elements/call_to_action_paralax_window.html" . }}
+     <div class="container">
+          {{ partial "elements/row1.html" . }}
+          {{ partial "elements/row2.html" . }}
+          {{ partial "elements/row3.html" . }}
+          {{ partial "elements/table.html" . }}
+          {{ partial "elements/row4.html" . }}
+     </div>     
+
+    {{ partial "elements/text-center.html" . }} 
+    {{ partial "elements/black_padding.html" . }}
+    {{ partial "elements/padding_top_bottom.html" . }}
+    {{ partial "elements/padding.html" . }}
+    {{ partial "footer.html" . }}
+</div>
+{{ partial "elements/scripts.html" . }}
+</body>
+</html>
